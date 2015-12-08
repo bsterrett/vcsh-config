@@ -1,0 +1,4 @@
+RAILS_ENV='staging'
+export RAILS_ENV
+
+alias taillog='cdlog;tail -f staging.log'

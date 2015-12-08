@@ -1,0 +1,9 @@
+appdir='/var/www/registria_admin/current/'
+logdir=$appdir'log/'
+
+alias cdreg='cd $appdir'
+alias cdlog='cd $logdir'
+alias sc='script/console'
+alias cdregsc='cdreg;sc'
+alias vibp='vi ~/.bash_profile && source ~/.bash_profile'
+alias be='bundle exec'

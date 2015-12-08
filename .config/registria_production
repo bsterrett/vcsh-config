@@ -1,0 +1,4 @@
+RAILS_ENV='production'
+export RAILS_ENV
+
+alias taillog='cdlog;tail -f production.log'
